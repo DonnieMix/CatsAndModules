@@ -18,7 +18,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     return true
   }
 }
-//
+
 @main
 struct CatsAndModulesApp: App {
     // register app delegate for Firebase setup
