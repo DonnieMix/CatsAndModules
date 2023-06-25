@@ -24,7 +24,7 @@ platform :ios do
   desc "Builds and exports project to Firebase App Distribution Console"
   lane :build_and_export do
     increment_version_number(
-      version_number: "1.1"
+      version_number: "1.2"
     )
 
     gym(
@@ -43,13 +43,9 @@ platform :ios do
     firebase_app_distribution(
       firebase_cli_token: "1//0c1sDmpByCA24CgYIARAAGAwSNwF-L9IrUO2eD5dw1k0kF8AeGtGM-mDRV24pofv5FmFhUztZOBfJlLY2ONfupu7qvWSqZY0qMiI",
       app: "1:301341426344:ios:4376cec4c159c018e8f89d",
-      release_notes: "Fastlane third export raising version number for recording",
+      release_notes: "Bitrise triggered fastlane on push to release_KyryloDerkach branch",
       testers: "o.frankiv@ukma.edu.ua"
     )
-  end
-
-  def screenshot_name(device, language, screen)
-    "KyryloDerkach_#{screen}_#{device}_#{language}.png"
   end
 
   desc "Takes screenshots of application"
