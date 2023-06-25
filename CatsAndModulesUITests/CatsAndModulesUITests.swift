@@ -21,13 +21,29 @@ final class CatsAndModulesUITests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
+    
+    var app: XCUIApplication!
+    
+    override func setUp() {
+        super.setUp()
+        continueAfterFailure = false
+        app = XCUIApplication()
         app.launch()
+        setupSnapshot(app)
+    }
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSnapshots() throws {
+        app.alerts.element.buttons["Accept"].tap()
+        sleep(5)
+        snapshot("KyryloDerkach_MainScreen")
+        
+        app.otherElements.element(boundBy: 0).tap()
+        sleep(5)
+        snapshot("KyryloDerkach_DetailsScreen")
+    }
+    
+    override func tearDown() {
+        super.tearDown()
     }
 
     func testLaunchPerformance() throws {
