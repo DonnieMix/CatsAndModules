@@ -1,5 +1,1 @@
-[submodule "git@github.com:DonnieMix/Networking.git"]
-	url = Networking
-[submodule "Networking"]
-	path = Networking
-	url = git@github.com:DonnieMix/Networking.git
+
