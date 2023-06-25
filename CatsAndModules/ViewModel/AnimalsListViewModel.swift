@@ -7,7 +7,7 @@
 
 import Foundation
 import Networking
-
+// this comment should be removed later
 class AnimalsListViewModel : ObservableObject {
     @Published var animals: [Animal] = []
     

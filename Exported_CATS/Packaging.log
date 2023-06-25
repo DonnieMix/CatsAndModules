@@ -1,0 +1,153 @@
+2023-06-13 02:02:56 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x109a136d0; archive(resolved)="<IDEArchive: 0x600001bc1e00>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team(resolved)="<IDEProvisioningBasicTeam: 0x600003e1f560; teamID='VNU8KKW4GG', teamName='(null)'>">
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x109a136d0; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="<IDEProvisioningBasicTeam: 0x600003e1f560; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x109a29af0; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="<IDEProvisioningBasicTeam: 0x600003e1f560; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x109a25c80; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="<IDEProvisioningBasicTeam: 0x600003e1f560; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x12d176190; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="<IDEProvisioningBasicTeam: 0x600003e1f560; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x12d175f70; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="<IDEProvisioningBasicTeam: 0x600003e1f560; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x12d0649d0; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="<IDEProvisioningBasicTeam: 0x600003e1f560; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x12d178cd0; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="<IDEProvisioningBasicTeam: 0x600003e1f560; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x12d17bd90; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="<IDEProvisioningBasicTeam: 0x600003e1f560; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x12d175a40; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="<IDEProvisioningBasicTeam: 0x600003e1f560; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x12d175320; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="(null)">
+	<IDEDistributionContext: 0x12d175100; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="(null)">
+	<IDEDistributionContext: 0x12c709450; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003d5d4f0>", team="(null)">
+	<IDEDistributionContext: 0x12d05e910; archive = "<IDEArchive: 0x600001bc1e00>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x109a136d0>
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2023-06-13 02:02:56 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app' '/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app'
+2023-06-13 02:02:56 +0000  >>> Copying /Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app 
+2023-06-13 02:02:56 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-06-13 02:02:56 +0000  3191 bytes for ./_CodeSignature/CodeResources
+2023-06-13 02:02:56 +0000  copying file ./CatsAndModules ... 
+2023-06-13 02:02:56 +0000  1666000 bytes for ./CatsAndModules
+copying file ./GoogleService-Info.plist ... 
+2023-06-13 02:02:56 +0000  687 bytes for ./GoogleService-Info.plist
+2023-06-13 02:02:56 +0000  copying file ./Frameworks/Networking.framework/_CodeSignature/CodeResources ... 
+2023-06-13 02:02:56 +0000  1798 bytes for ./Frameworks/Networking.framework/_CodeSignature/CodeResources
+2023-06-13 02:02:56 +0000  copying file ./Frameworks/Networking.framework/Networking ... 
+2023-06-13 02:02:56 +0000  93360 bytes for ./Frameworks/Networking.framework/Networking
+2023-06-13 02:02:56 +0000  copying file ./Frameworks/Networking.framework/Info.plist ... 
+2023-06-13 02:02:56 +0000  757 bytes for ./Frameworks/Networking.framework/Info.plist
+2023-06-13 02:02:56 +0000  copying file ./embedded.mobileprovision ... 
+2023-06-13 02:02:56 +0000  12286 bytes for ./embedded.mobileprovision
+2023-06-13 02:02:56 +0000  copying file ./Info.plist ... 
+2023-06-13 02:02:56 +0000  1281 bytes for ./Info.plist
+2023-06-13 02:02:56 +0000  copying file ./PkgInfo ... 
+2023-06-13 02:02:56 +0000  8 bytes for ./PkgInfo
+2023-06-13 02:02:56 +0000 [MT] /usr/bin/ditto exited with 0
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2023-06-13 02:02:56 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x600001bc2dc0; bundleID='ua.edu.ukma.derkach.Networking', path='<DVTFilePath:0x6000014f2df0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001cbdf40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000087af70; name='iPhone Developer: Kyrylo Derkach (QFRLVBUQ69)', hash='56DBF53E845B915D521FF665D66430C5F5451F73', serialNumber='4D3EFBD9197BD6901849DAB66C57F24B', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-26 18:08:00 +0000''>', entitlements='(null)', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.derkach.Networking', executablePath='<DVTFilePath:0x6000014f76b0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'>
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2023-06-13 02:02:56 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app/Frameworks/Networking.framework/Networking' '-verify_arch' 'arm64e'
+2023-06-13 02:02:56 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-06-13 02:02:56 +0000 [MT] Skipping architecture thinning for item "Networking" because arch "arm64e" wasn't found
+2023-06-13 02:02:56 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app/CatsAndModules' '-verify_arch' 'arm64e'
+2023-06-13 02:02:56 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-06-13 02:02:56 +0000 [MT] Skipping architecture thinning for item "CatsAndModules" because arch "arm64e" wasn't found
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionODRStep
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2023-06-13 02:02:56 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600001bc2dc0; bundleID='ua.edu.ukma.derkach.Networking', path='<DVTFilePath:0x6000014f2df0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001cbdf40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000866ec0; name='iPhone Developer: Kyrylo Derkach (QFRLVBUQ69)', hash='56DBF53E845B915D521FF665D66430C5F5451F73', serialNumber='4D3EFBD9197BD6901849DAB66C57F24B', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-26 18:08:00 +0000''>', entitlements='(null)', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.derkach.Networking', executablePath='<DVTFilePath:0x6000014f76b0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'>
+2023-06-13 02:02:56 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app'
+2023-06-13 02:02:56 +0000 [MT] /usr/bin/xattr exited with 0
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2023-06-13 02:02:56 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600001bc2dc0; bundleID='ua.edu.ukma.derkach.Networking', path='<DVTFilePath:0x6000014f2df0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001cbdf40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000866ec0; name='iPhone Developer: Kyrylo Derkach (QFRLVBUQ69)', hash='56DBF53E845B915D521FF665D66430C5F5451F73', serialNumber='4D3EFBD9197BD6901849DAB66C57F24B', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-26 18:08:00 +0000''>', entitlements='(null)', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.derkach.Networking', executablePath='<DVTFilePath:0x6000014f76b0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'>: {
+}
+2023-06-13 02:02:56 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600001bc2dc0; bundleID='ua.edu.ukma.derkach.Networking', path='<DVTFilePath:0x6000014f2df0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001cbdf40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000867180; name='iPhone Developer: Kyrylo Derkach (QFRLVBUQ69)', hash='56DBF53E845B915D521FF665D66430C5F5451F73', serialNumber='4D3EFBD9197BD6901849DAB66C57F24B', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-26 18:08:00 +0000''>', entitlements='(null)', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.derkach.Networking', executablePath='<DVTFilePath:0x6000014f76b0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'> are: {
+}
+2023-06-13 02:02:56 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600001bc2dc0; bundleID='ua.edu.ukma.derkach.Networking', path='<DVTFilePath:0x6000014f2df0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001cbdf40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000867230; name='iPhone Developer: Kyrylo Derkach (QFRLVBUQ69)', hash='56DBF53E845B915D521FF665D66430C5F5451F73', serialNumber='4D3EFBD9197BD6901849DAB66C57F24B', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-26 18:08:00 +0000''>', entitlements='(null)', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.derkach.Networking', executablePath='<DVTFilePath:0x6000014f76b0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'> to: /var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/entitlements~~~EmGCET
+2023-06-13 02:02:56 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '56DBF53E845B915D521FF665D66430C5F5451F73' '--entitlements' '/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/entitlements~~~EmGCET' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app/Frameworks/Networking.framework'
+2023-06-13 02:02:56 +0000  /var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app/Frameworks/Networking.framework: replacing existing signature
+2023-06-13 02:02:56 +0000  /var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app/Frameworks/Networking.framework: signed bundle with Mach-O thin (arm64) [ua.edu.ukma.derkach.Networking]
+2023-06-13 02:02:56 +0000 [MT] /usr/bin/codesign exited with 0
+2023-06-13 02:02:56 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600001b5f840; bundleID='ua.edu.ukma.derkach.CatsAndModules', path='<DVTFilePath:0x6000014f61b0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001cbe2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000087aec0; name='iPhone Developer: Kyrylo Derkach (QFRLVBUQ69)', hash='56DBF53E845B915D521FF665D66430C5F5451F73', serialNumber='4D3EFBD9197BD6901849DAB66C57F24B', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-26 18:08:00 +0000''>', entitlements='{
+    "application-identifier" = "VNU8KKW4GG.ua.edu.ukma.derkach.CatsAndModules";
+    "com.apple.developer.team-identifier" = VNU8KKW4GG;
+    "get-task-allow" = 1;
+}', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.derkach.CatsAndModules', executablePath='<DVTFilePath:0x6000014f7d40:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/CatsAndModules'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "VNU8KKW4GG.ua.edu.ukma.derkach.CatsAndModules";
+    "com.apple.developer.team-identifier" = VNU8KKW4GG;
+    "get-task-allow" = 1;
+}
+2023-06-13 02:02:56 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600001b5f840; bundleID='ua.edu.ukma.derkach.CatsAndModules', path='<DVTFilePath:0x6000014f61b0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001cbe2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000087a890; name='iPhone Developer: Kyrylo Derkach (QFRLVBUQ69)', hash='56DBF53E845B915D521FF665D66430C5F5451F73', serialNumber='4D3EFBD9197BD6901849DAB66C57F24B', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-26 18:08:00 +0000''>', entitlements='{
+    "application-identifier" = "VNU8KKW4GG.ua.edu.ukma.derkach.CatsAndModules";
+    "com.apple.developer.team-identifier" = VNU8KKW4GG;
+    "get-task-allow" = 1;
+}', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.derkach.CatsAndModules', executablePath='<DVTFilePath:0x6000014f7d40:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/CatsAndModules'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "VNU8KKW4GG.ua.edu.ukma.derkach.CatsAndModules";
+    "com.apple.developer.team-identifier" = VNU8KKW4GG;
+    "get-task-allow" = 1;
+}
+2023-06-13 02:02:56 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600001b5f840; bundleID='ua.edu.ukma.derkach.CatsAndModules', path='<DVTFilePath:0x6000014f61b0:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001cbe2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000087b4f0; name='iPhone Developer: Kyrylo Derkach (QFRLVBUQ69)', hash='56DBF53E845B915D521FF665D66430C5F5451F73', serialNumber='4D3EFBD9197BD6901849DAB66C57F24B', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-26 18:08:00 +0000''>', entitlements='{
+    "application-identifier" = "VNU8KKW4GG.ua.edu.ukma.derkach.CatsAndModules";
+    "com.apple.developer.team-identifier" = VNU8KKW4GG;
+    "get-task-allow" = 1;
+}', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.derkach.CatsAndModules', executablePath='<DVTFilePath:0x6000014f7d40:'/Users/donnie_mix/IOS/WorkInsideApple/CatsAndModules/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules.app/CatsAndModules'>', hardenedRuntime='0'>'> to: /var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/entitlements~~~5cjro7
+2023-06-13 02:02:56 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '56DBF53E845B915D521FF665D66430C5F5451F73' '--entitlements' '/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/entitlements~~~5cjro7' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app'
+2023-06-13 02:02:56 +0000  /var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app: replacing existing signature
+2023-06-13 02:02:56 +0000  /var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app: signed app bundle with Mach-O thin (arm64) [ua.edu.ukma.derkach.CatsAndModules]
+2023-06-13 02:02:56 +0000 [MT] /usr/bin/codesign exited with 0
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2023-06-13 02:02:56 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root' '/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Packages/CatsAndModules.ipa'
+2023-06-13 02:02:56 +0000  >>> Copying /var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root 
+2023-06-13 02:02:56 +0000  copying file ./Payload/CatsAndModules.app/_CodeSignature/CodeResources ... 
+2023-06-13 02:02:56 +0000  3191 bytes for ./Payload/CatsAndModules.app/_CodeSignature/CodeResources
+2023-06-13 02:02:56 +0000  copying file ./Payload/CatsAndModules.app/CatsAndModules ... 
+2023-06-13 02:02:56 +0000  1666000 bytes for ./Payload/CatsAndModules.app/CatsAndModules
+copying file ./Payload/CatsAndModules.app/GoogleService-Info.plist ... 
+2023-06-13 02:02:56 +0000  687 bytes for ./Payload/CatsAndModules.app/GoogleService-Info.plist
+copying file ./Payload/CatsAndModules.app/Frameworks/Networking.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/CatsAndModules.app/Frameworks/Networking.framework/_CodeSignature/CodeResources
+copying file ./Payload/CatsAndModules.app/Frameworks/Networking.framework/Networking ... 
+2023-06-13 02:02:56 +0000  93616 bytes for ./Payload/CatsAndModules.app/Frameworks/Networking.framework/Networking
+copying file ./Payload/CatsAndModules.app/Frameworks/Networking.framework/Info.plist ... 
+2023-06-13 02:02:56 +0000  757 bytes for ./Payload/CatsAndModules.app/Frameworks/Networking.framework/Info.plist
+copying file ./Payload/CatsAndModules.app/embedded.mobileprovision ... 
+2023-06-13 02:02:56 +0000  12286 bytes for ./Payload/CatsAndModules.app/embedded.mobileprovision
+copying file ./Payload/CatsAndModules.app/Info.plist ... 
+2023-06-13 02:02:56 +0000  1281 bytes for ./Payload/CatsAndModules.app/Info.plist
+copying file ./Payload/CatsAndModules.app/PkgInfo ... 
+2023-06-13 02:02:56 +0000  8 bytes for ./Payload/CatsAndModules.app/PkgInfo
+2023-06-13 02:02:56 +0000 [MT] /usr/bin/ditto exited with 0
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2023-06-13 02:02:56 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-06-13 02:02:56 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x6000014e9420:'/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app/Frameworks/Networking.framework'>
+2023-06-13 02:02:56 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x6000014ff2c0:'/var/folders/y4/8v72fy611ws7wr0kx3n4bcgh0000gn/T/XcodeDistPipeline.~~~A0ePop/Root/Payload/CatsAndModules.app'>
+2023-06-13 02:02:56 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
